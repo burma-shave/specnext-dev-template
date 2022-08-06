@@ -1,43 +1,6 @@
 {
     "version": "2.0.0",
     "tasks": [
-      {
-        "label": "Build Make Image",
-        "type": "docker-build",
-        "dockerBuild": {
-            "context": "${workspaceFolder}",
-            "dockerfile": "${workspaceFolder}/Dockerfile",
-            "tag": "specnextdev"
-        }
-      },
-      {
-        "label": "Clean",
-        "type": "docker-run",
-        "dockerRun": {
-            "image": "specnextdev",
-            "command": "make clean",
-            "volumes": [
-                {
-                    "localPath": "${workspaceFolder}",
-                    "containerPath": "/src"
-                }
-            ]
-        }
-      },
-      {
-        "label": "Build NEX",
-        "type": "docker-run",
-        "dependsOn": ["Clean"],
-        "dockerRun": {
-            "image": "specnextdev",
-            "command": "make all",
-            "volumes": [
-                {
-                    "localPath": "${workspaceFolder}",
-                    "containerPath": "/src"
-                }
-            ]
-        }
-      }
+      
     ]
   }
