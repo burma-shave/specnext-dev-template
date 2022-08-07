@@ -30,6 +30,7 @@ STACK_SIZE: equ 100    ; in words
     defw 0  ; WPMEM, 2
 stack_bottom:
     defs    STACK_SIZE*2, 0
+    
 stack_top:
     ;defw 0
     defw 0  ; WPMEM, 2

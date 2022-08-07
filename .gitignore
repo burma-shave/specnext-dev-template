@@ -1,1 +1,4 @@
 out/
+tools/cspect/*
+tools/sjasmplus/*
+cspect_win.dat

@@ -1,7 +1,7 @@
-make --dry-run --keep-going --print-directory
-make: Entering directory `/Users/eric/software_development/projects/specnext-dev-template'
-docker run -v "/Users/eric/software_development/projects/specnext-dev-template":/code -w /code burma5have/sjasmplus sjasmplus -D_NEXNAME_=shooting-game.nex --sld=out/shooting-game.sld \
-		--fullpath --outprefix=./out/ src/main.asm
+make.exe --dry-run --keep-going --print-directory
+make: Entering directory 'c:/Users/eric/Documents/specnext-dev-template'
+./tools/sjasmplus/sjasmplus -D_NEXNAME_=main.nex --sld=out/main.sld \
+	--fullpath --outprefix=./out/ src/main.asm
 echo src/main.asm src/inc/foo.asm
-make: Leaving directory `/Users/eric/software_development/projects/specnext-dev-template'
+make: Leaving directory 'c:/Users/eric/Documents/specnext-dev-template'
  

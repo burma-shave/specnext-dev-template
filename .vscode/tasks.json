@@ -1,6 +1,15 @@
 {
-    "version": "2.0.0",
-    "tasks": [
-      
-    ]
-  }
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start Cspect",
+      "type": "shell",
+      "command": "./tools/cspect/Cspect.exe -w6 -zxnext -exit -brk -tv -r -v -debug",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
