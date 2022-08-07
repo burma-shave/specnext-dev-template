@@ -2,3 +2,7 @@ out/
 tools/cspect/*
 tools/sjasmplus/*
 cspect_win.dat
+
+.vscode/configurationCache.log
+.vscode/dryrun.log
+.vscode/targets.log

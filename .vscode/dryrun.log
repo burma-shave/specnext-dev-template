@@ -1,7 +1,0 @@
-make.exe --dry-run --keep-going --print-directory
-make: Entering directory 'c:/Users/eric/Documents/specnext-dev-template'
-./tools/sjasmplus/sjasmplus -D_NEXNAME_=main.nex --sld=out/main.sld \
-	--fullpath --outprefix=./out/ src/main.asm
-echo src/main.asm src/inc/foo.asm
-make: Leaving directory 'c:/Users/eric/Documents/specnext-dev-template'
- 
